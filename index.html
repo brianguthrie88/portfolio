@@ -1,0 +1,96 @@
+<!-- shows that html is being used, the language being used is english,
+and the head element has meta data -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<!-- the body element holds the parts that wll be seen by the user -->
+<body>
+    <!-- this header holds the title of the page, my photo and the navigation
+        links to the different parts of the page -->
+    <header>
+        <!-- holds title and my photo together as an element i can manipulate
+        together in a flex box -->
+        <div class="name-photo">
+            <h1>Brian Guthrie</h1>
+            <img src="./assets/images/myPhoto.PNG" alt="Photo of me"> 
+        </div>
+        <!-- this is the navigation that shows the different sections of the page and 
+        they are used to go directly to those parts of the page -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me-nav">About Me</a>
+                </li>
+                <li>
+                    <a href="#work-nav">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me-nav">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- this is the background image of the page -->
+    <figure class="banner">
+        <h3>Reach for the Stars!</h3>
+    </figure>
+
+    <!-- this is the main which holds the bulk of the content, most important info -->
+    <main>
+        <!-- this is the about me class that connects to the link in the navigation header -->
+        <section class="about-me" id ="about-me-nav">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Adipisci veritatis vitae similique, vel 
+                explicabo omnis autem voluptates provident. 
+                Necessitatibus soluta voluptas laboriosam placeat 
+                iste quia quas voluptatum sapiente perferendis 
+                culpa.</p>
+        </section>
+        <!-- this section shows my work -->
+        <section class="work" id ="work-nav">
+            <h2>Work</h2>
+            <nav>
+                <ul>
+                    <!-- link1 shows my first homework assignment-->
+                    <li id="link1">
+                        <!-- the names show the names of the assignments -->
+                        <a  id="name1" href="https://github.com/brianguthrie88/refactoring"><img id="project1" src="./assets/images/working-website-1.png" alt="Photo of my Horiseon project"></a>
+                    </li>
+                    <li id="link2">
+                        <a id="name2" href="#Title1"><img id="project2" src="./assets/images/project2.jpg" alt="Photo of my second project"></a>
+                    </li>
+                    <li id="link3">
+                        <a id="name3" href="#Title2"><img id="project3" src="./assets/images/project3.jpg" alt="Photo of my third project"></a>
+                    </li>
+                    <li id="link4">
+                        <a id="name4" href="#Title3"><img id="project4" src="./assets/images/project4.jpg" alt="Photo of my fourth project"></a>
+                    </li>
+                    <li id="link5">
+                        <a id="name5" href="#Title4"><img id="project5" src="./assets/images/project5.jpg" alt="Photo of my fifth project"></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <!-- this shows my contact info -->
+    <footer id="contact-me-nav">
+        <h2>Contact Me</h2>
+        <div class="contacts">
+            <p>(803) 200-7519</p>
+            <p>brianguthrie88@aol.com</p>
+            <a href="https://github.com/brianguthrie88?tab=repositories">
+                Github
+            </a>
+        </div>
+    </footer> 
+</body>
+</html>
