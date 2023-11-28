@@ -32,7 +32,7 @@ Html, CSS
 For any questions, please reach out by creating an issue.
 
 ## Deployment Section
-
+https://brianguthrie88.github.io/portfolio/
 
 My Webpage
 ![ScreenShot](assets/images/portfolio-assignment-screenshot.png)
